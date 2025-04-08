@@ -1,36 +1,54 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Project Name
 
-## Getting Started
+Prepwise - An AI app for practicing mock-interviews for IT Professionals. In this app, users can talk with an AI agent to generate interview(s) based on their preferences, and once its generated, the user can practice that interview and get a detailed feedback including areas to improve!
 
-First, run the development server:
+## 🚀 Demo
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Live app: http://ai-prep-beta.vercel.app/
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🧰 Tech Stack
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- Next.js v15
+- React v19 + TypeScript
+- TailwindCSS v4 and ShadCN for appealing UI
+- VAPI - Voice-based AI Agent to speak with
+- Gemini AI for generating interviews and feedback
+- Firebase for Authentication and Database Management
+- ZOD for schema declaration and validation
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📦 Features
 
-## Learn More
+- Feature 1 – Secure authentication with Firebase
+- Feature 2 – Generate and practice a mock interview with AI-based voice agent
+- Feature 3 – Get a detailed feedback once the interview is successfully completed
 
-To learn more about Next.js, take a look at the following resources:
+## 📸 Screenshots
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Sign-in Screen:
+![Sign-in Screen](/app-screenshots/Sing-in_Page.png)
+![Homescreen](/app-screenshots/Homepage.png)
+![Interview Generation Page](/app-screenshots/Interview-Generation_Page.png)
+![Feedback Page](/app-screenshots/Feedback_Page.png)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🛠️ Installation
 
-## Deploy on Vercel
+1. Clone the project and install dependencies..
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+  ```bash
+  git clone https://github.com/your-username/your-repo-name.git
+  cd your-repo-name
+  npm install
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+2. Create a file named '.env.local' in the root directory
+
+3. Add keys as below:
+    FIREBASE_PROJECT_ID="_your key_" <!-- You need to create a project in firebase for that -->
+    FIREBASE_PRIVATE_KEY="_your key_" <!-- Can be generated on firebase -->
+    FIREBASE_CLIENT_EMAIL="_your email from firebase admin SDK_"
+    GOOGLE_GENERATIVE_AI_API_KEY="_Google AI Studio API key_" <!-- Generate a key from Gemini AI Studio -->
+    NEXT_PUBLIC_VAPI_WEB_TOKEN="_your vapi web token key_" <!-- Generate a key from VAPI.ai after sign-up -->
+    NEXT_PUBLIC_VAPI_WORKFLOW_ID="_your vapi workflow id_" <!-- Can be obtained from vapi after sign-up -->
+
+4. Once all keys are added, run the command 'npm run dev'
+
+5. Copy paste the URL from terminal(http://localhost:3000) and explore the app in your browser!
