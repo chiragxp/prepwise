@@ -1,6 +1,6 @@
-# Project Name
+# Prepwise
 
-Prepwise - An AI app for practicing mock-interviews for IT Professionals. In this app, users can talk with an AI agent to generate interview(s) based on their preferences, and once its generated, the user can practice that interview and get a detailed feedback including areas to improve!
+An AI app for practicing mock-interviews for IT Professionals. In this app, users can talk with an AI agent to generate interview(s) based on their preferences, and once its generated, the user can practice that interview and get a detailed feedback including areas to improve!
 
 ## 🚀 Demo
 
@@ -24,16 +24,16 @@ Live app: http://ai-prep-beta.vercel.app/
 
 ## 📸 Screenshots
 
-Sign-in Screen:
+- Sign-in Screen:
 ![Sign-in Screen](/app-screenshots/Sing-in_Page.png)
 
-Homepage:
+- Homepage:
 ![Homescreen](/app-screenshots/Homepage.png)
 
-Interview Generation Page:
+- Interview Generation Page:
 ![Interview Generation Page](/app-screenshots/Interview-Generation_Page.png)
 
-Feedback Page:
+- Feedback Page:
 ![Feedback Page](/app-screenshots/Feedback_Page.png)
 
 ## 🛠️ Installation
@@ -56,6 +56,6 @@ Feedback Page:
     NEXT_PUBLIC_VAPI_WEB_TOKEN="_your vapi web token key_" <!-- Generate a key from VAPI.ai after sign-up -->
     NEXT_PUBLIC_VAPI_WORKFLOW_ID="_your vapi workflow id_" <!-- Can be obtained from vapi after sign-up -->
 
-4. Once all keys are added, run the command ```bash npm run dev```
+4. Once all keys are added, run the command: ```npm run dev```
 
 5. Copy paste the URL from terminal(http://localhost:3000) and explore the app in your browser!
