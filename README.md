@@ -26,8 +26,14 @@ Live app: http://ai-prep-beta.vercel.app/
 
 Sign-in Screen:
 ![Sign-in Screen](/app-screenshots/Sing-in_Page.png)
+
+Homepage:
 ![Homescreen](/app-screenshots/Homepage.png)
+
+Interview Generation Page:
 ![Interview Generation Page](/app-screenshots/Interview-Generation_Page.png)
+
+Feedback Page:
 ![Feedback Page](/app-screenshots/Feedback_Page.png)
 
 ## 🛠️ Installation
