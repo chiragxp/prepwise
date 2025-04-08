@@ -44,6 +44,7 @@ Feedback Page:
   git clone https://github.com/your-username/your-repo-name.git
   cd your-repo-name
   npm install
+  ```
 
 2. Create a file named '.env.local' in the root directory
 
@@ -55,6 +56,6 @@ Feedback Page:
     NEXT_PUBLIC_VAPI_WEB_TOKEN="_your vapi web token key_" <!-- Generate a key from VAPI.ai after sign-up -->
     NEXT_PUBLIC_VAPI_WORKFLOW_ID="_your vapi workflow id_" <!-- Can be obtained from vapi after sign-up -->
 
-4. Once all keys are added, run the command 'npm run dev'
+4. Once all keys are added, run the command ```bash npm run dev```
 
 5. Copy paste the URL from terminal(http://localhost:3000) and explore the app in your browser!
